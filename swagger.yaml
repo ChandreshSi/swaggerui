@@ -151,9 +151,6 @@ definitions:
   ProcedureRate:
     type: object
     properties:
-      tenenetId:
-        type: "string"
-        description: "tenant id"
       id:
         type: "string"
         description: "rate id"
@@ -199,9 +196,6 @@ definitions:
     - "name"
     - "photoUrls"
     properties:
-      tenenetId:
-        type: "string"
-        description: "tenant id"
       id:
         type: "string"
         description: "claim id"
